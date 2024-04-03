@@ -1,0 +1,52 @@
+.container{
+    background-image: url(https://i.pinimg.com/236x/8d/5e/5e/8d5e5eccf86a5638d0df8ec49b9c1c85.jpg);
+}
+
+.book-list {
+    list-style-type: none; 
+    background-color:#123c69;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    border: black 3px solid;
+    border-radius: 350px;
+  }
+
+.book-list img{
+    padding: 20px;
+    width: 190px;
+}
+
+.book-list li{
+    width: 700px;
+    background-color: #ac3b61;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: black 3px solid;
+    border-radius: 350px;
+}
+
+#description-of-book{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+}
+
+#pricee{
+    color:red;
+    font-weight: bold;
+}
+
+
+#buy-button{
+    padding: 5px;
+    margin-bottom:10px;
+    width:50px;
+    color:white;
+    background-color: red;
+    border:black solid 2px;
+    border-radius: 5px;
+}

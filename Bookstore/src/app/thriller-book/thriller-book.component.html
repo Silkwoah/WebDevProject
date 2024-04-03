@@ -1,0 +1,19 @@
+<div class="container">
+
+    
+    <ul class="book-list">
+      <li *ngFor="let book of tBooks">
+        <img [src]="book.image" alt="{{ book.name }}">
+        <div>
+          <h3>{{ book.name }}</h3>
+          <p id="description-of-book">{{ book.description }}</p>
+          <p id="pricee">Price: ${{ book.price }}</p>
+          
+        </div>
+        <button (click)="buyBook(book)" id="buy-button">Buy</button>
+      </li>
+    </ul>
+    
+
+  </div>
+

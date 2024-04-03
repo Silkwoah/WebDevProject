@@ -1,0 +1,22 @@
+<!-- <h2>Top 5 Books</h2>
+<ul>
+  <li *ngFor="let book of topBooks">{{ book }}</li>
+</ul> -->
+
+<!-- <a [routerLink]="['/top-books']">Top 5 Booksssss</a> -->
+
+
+<body>
+    
+    <ul class="book-list">
+      <li *ngFor="let book of topBooks">
+        <img [src]="book.image" alt="{{ book.name }}">
+        <div>
+          <h3>{{ book.name }}</h3>
+          <p id="description-of-book">{{ book.description }}</p>
+          <p id="pricee">Price: ${{ book.price }}</p>
+        </div>
+      </li>
+    </ul>
+    
+</body>

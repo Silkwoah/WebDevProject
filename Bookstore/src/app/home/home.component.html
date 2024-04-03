@@ -1,0 +1,93 @@
+
+
+
+<div class="top-top">
+    
+    <img id="logo" src="https://i.pinimg.com/564x/9d/8b/b0/9d8bb0df052f1cedc767c5c2d3d45ad6.jpg" alt="logo">
+    <h1 id="name-of-shop">Book Haven</h1>
+
+    <form id="search-form" action="/search" method="GET">
+      <input type="text" name="query" placeholder="Search books...">
+      <button type="submit">Search</button>
+    </form>
+    <a  class="vkladki">
+        <i ><a routerLink="/cart" style="text-decoration: none;color: white;"><img src="https://avatars.mds.yandex.net/i?id=0b43d564f989991e457408a1da35d4dda42d1e30-12475132-images-thumbs&n=13" alt="shop-cart" width="30px"></a>
+        </i>
+        <i><a routerLink="/info" style="text-decoration: none;color: white;"><img src="https://avatars.mds.yandex.net/i?id=eb1865df37d7e898e8bb1e684f2bf3aabb1cee21-12509449-images-thumbs&n=13" alt="shop-cart" width="30px"></a>
+        </i>
+      </a>
+      
+</div>
+
+<div class="slogan">
+  <p>Explore Endless Stories, One Page at a Time</p>
+</div>
+
+  
+<div class="recommend">
+  <div class="image-container">
+      <img id="image-of-books" src="http://png.pngtree.com/background/20230519/original/pngtree-colorful-selection-of-books-on-shelves-picture-image_2658803.jpg" alt="boooks">
+      <div class="overlay">
+        <a routerLink="/top-books" id="toop-five">Top 5 Books Every Bookworm Should Read</a>
+      </div>
+  </div>
+</div> 
+
+
+
+ <!-- <div *ngIf="images && images.length > 0" class="carousel-container">
+  <img *ngFor="let image of images; let i=index" 
+       [src]="image.imageSrc" 
+       [alt]="image.imageAlt"
+       [ngClass]="{'image-active': selectedIndex=== i}">
+
+  <div *ngIf="indicators" class="carousel-dot-container">
+    <button *ngFor="let dot of images; let i=index" class="dot" 
+          [ngClass]="{'active': selectedIndex===i}"
+          (onclick)="selectImage(i)"></button>
+  </div>
+</div>   -->
+<div class="genre-block">
+<h1 class="categories-of-book"> Genres </h1>
+
+<div class="genres-container">
+  <div *ngFor="let genre of genres" class="genre-item">
+    <a [routerLink]="['/genre', genre.name]">
+      <div class="image-container">
+        <img [src]="genre.imageUrl" [alt]="genre.name" class="genre-image">
+        <span class="genre-name">{{ genre.name }}</span>
+      </div>
+    </a>
+  </div>
+</div>
+
+</div>
+
+
+<footer class="footer">
+  <div class="about-us">
+    <h3>About Us</h3>
+    <p>Delve into a world of endless imagination and captivating stories at our Book Haven. With a carefully curated collection spanning various genres, our bookstore invites you to explore the realms of literature and embark on unforgettable journeys through the power of words. Whether you seek thrilling adventures, heartwarming tales, or profound insights, our diverse selection guarantees to satisfy every book lover's appetite. Step into our sanctuary of knowledge and embark on a literary adventure like no other. </p>
+  </div>
+  <div class="contact-us">
+    <h3>Contact Us</h3>
+    <ul class="contact-info">
+      <li><i class="fas fa-map-marker-alt"></i> 123 Main Street, City, Country</li>
+      <li><i class="fas fa-envelope"></i> infobookhaven.com</li>
+      <li><i class="fas fa-phone-alt"></i> +1 234 567 890</li>
+    </ul>
+  </div>
+  <div class="follow-us">
+    <h3>Follow Us</h3>
+    <ul class="social-icons">
+      <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+      <li><a href="https://twitter.com/?lang=ru"><i class="fab fa-twitter"></i> Twitter</a></li>
+      <li><a href="https://www.instagram.com/?hl=ru"><i class="fab fa-instagram"></i> Instagram</a></li>
+    </ul>
+  </div>
+  
+</footer>
+<p id="webka">Web development project 2024</p>
+
+
+

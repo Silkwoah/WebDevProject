@@ -1,0 +1,262 @@
+.top-top{
+    display:flex;
+    align-items: center;
+    background-color: #1e1e1e;
+    width: 100%;
+}
+
+#name-of-shop{
+    text-align: center;
+    margin-right: 10px;
+    font-family: cursive;
+    color:#fff
+}
+#logo{
+    padding:10px;
+    width:60px;
+    height:50px;
+}
+.vkladki{
+    margin-left: auto;
+    
+}
+
+
+
+i{
+    padding:20px;
+    color:#fff;
+
+}
+#search-form {
+    margin-left:20%;
+ 
+}
+
+#search-form input[type="text"] {
+    padding: 5px;
+    border: 2px solid #787c82;
+    border-radius: 5px;
+    width:300px;
+}
+
+#search-form button {
+    padding: 5px 10px;
+    background-color: #787c82;
+    margin-left:10px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* body{
+    background-color: #dcdcde;
+    overflow-y: scroll;
+    
+} */
+
+.slogan{
+    text-align: center;
+    background-color: #787c82;
+    padding: 15px;
+    height: 30px;
+}
+.slogan p{
+    color: #fff;
+    font-family: cursive;
+    font-size: 20px;
+    margin-top:1px;
+}
+.recommend{
+    display: grid;
+    place-items: center;
+    background-color: #1e1e1e;
+}
+
+
+#image-of-books{
+    width:800px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.image-container {
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#toop-five{
+    text-decoration: none;
+    color: white;
+}
+
+
+.footer {
+    margin-top: 100px;
+    background-color: #8c8f94;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .about-us, .contact-us, .follow-us {
+    width: calc(33.33% - 20px); 
+    margin-left:20px;
+  }
+  
+  .about-us h3, .contact-us h3, .follow-us h3 {
+    color: #fff;
+    margin-left:50px;
+  }
+  
+  .contact-info {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .social-icons {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .social-icons li {
+    margin-bottom: 5px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: #ccc;
+  }
+  
+
+.container{
+    margin-left: 13px;
+}
+
+.carousel-container{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    width:700px;
+    border-radius: 15px;
+    box-shadow: 0 6 px 12 px #dce1e1;
+}
+
+.carousel-container img{
+    display: none;
+    border-radius: 15px;
+}
+
+.carousel-container img.image-active{
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+
+.carousel-dot-container{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 1 rem;
+}
+
+.dot{
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    background-color: #dce1e1;
+    border-radius: 50%;
+    display: inline-block;
+    transition: opacity 0.6s ease;
+    opacity: 0.5;
+}
+
+.active,
+.dot:hover{
+    opacity: 1;
+}
+
+
+.categories-of-book{
+    text-align: center; 
+  font-size: 24px; 
+  font-weight: bold; 
+  color: #333; 
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+  border-top: 2px solid #333; 
+  border-bottom: 2px solid #333; 
+  padding: 10px 0; 
+}
+
+.genres-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .genre-item {
+    flex: 0 0 calc(33.33% - 20px);
+    text-align: center;
+    margin: 0 10px;
+    margin-bottom: 20px;
+  }
+  
+  .image-container {
+    position: relative;
+  }
+  
+  .genre-image {
+    width: 327px; 
+    height: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .genre-name {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.7); 
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px; 
+    color: #333; 
+  }
+  
+  .genre-image:hover {
+    transform: scale(1.1);
+  }
+
+  
+
+
+
+
+#webka{
+    margin-left:20px;
+}
+
+
+  
